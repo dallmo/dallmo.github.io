@@ -24,7 +24,8 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "sync": "rsync -av ./public/ ../docs/",
+    "sync": "rsync -av --delete-after ./public/ ../docs/",
+    "copy": "cp ../CNAME ../docs/",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
