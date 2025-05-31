@@ -2,18 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
+    <meta name="description" content="a simple static page for testing handshake domain connections, related domains : jimz.cc, dallmo.com, hdns.io">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/dallmo.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
 
+    <!-- Load config.js BEFORE using siteConfig -->
+    <script src="config.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (window.siteConfig && window.siteConfig.domain) {
+          document.title = window.siteConfig.domain + " | on handshake domain";
+          const h1 = document.getElementById("site-domain");
+          if (h1) h1.textContent = window.siteConfig.domain;
+        } else {
+          console.error("siteConfig is not defined or missing 'domain' as an attribute. check the file 'config.js' in root.");
+        }
+      });
+    </script>
   </head>
   <body>
-    <h1>info.dallmo</h1>
-<p>
-  static site with handshake TLD
-</p>
-<p>
-  temp parking index, handshake domain check, hosting on root, as of 2025-05-31-a.
-</p>
+    <h1 id="site-domain">Loading config...</h1>
+    <p>static site with handshake TLD</p>
+    <p>temp parking index, handshake domain check</p>
+    <p>hosting on root as a template</p>
+    <p>as of 2025-05-31-a.</p>
   </body>
 </html>
