@@ -1,4 +1,4 @@
-# dallmo.github.io
+# overview
 
 ## updated as of 2025-08-28
 - those handshake DNS are too unstable, giving them up, and went back to a static page with JAMstack ;
