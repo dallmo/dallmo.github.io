@@ -1,5 +1,9 @@
 # dallmo.github.io
 
+## updated as of 2025-08-28
+- those handshake DNS are too unstable, giving them up, and went back to a static page with JAMstack ;
+- using lume this time, both gatsby and fresh are too heavy ; 
+
 ## updated as of 2025-05-31
 - gitHub pages for the github account dallmo
 - temp parking index, handshake domain check, hosting on root, as of 2025-05-31-a.
