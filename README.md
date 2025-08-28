@@ -6,7 +6,7 @@
 - based on : [lume, with the theme simple-wiki][link-01]
 - custom domain : `wiki.dallmo.com`
   - with redirection from `dallmo.com`
-  - which is in turn a simple AWS Amplify app ; 
+  - which is in turn a simple http redirect app hosted in [deno deploy][link-02] ; 
 
 ## updated as of 2025-05-31
 - gitHub pages for the github account dallmo
@@ -21,3 +21,4 @@
 
 
 [link-01]: https://lume.land/theme/simple-wiki/
+[link-02]: https://deno.dev
