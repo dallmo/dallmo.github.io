@@ -7,4 +7,6 @@ tags: ["networking"]
 
 dig it online ~
 
-https://toolbox.googleapps.com/apps/dig/
+[google admin toolboxs - dig][link-01]
+
+[link-01]: https://toolbox.googleapps.com/apps/dig/
