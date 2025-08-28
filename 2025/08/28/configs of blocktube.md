@@ -1,4 +1,9 @@
-# 2025-08-28 - configs of blocktube
+---
+date: 2025-08-28
+tags: ["browser plugins"]
+---
+
+# configs of blocktube
 
 # overview
 a plugin to block certain youtube channel / video

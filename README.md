@@ -3,7 +3,12 @@
 ## updated as of 2025-08-28
 - those handshake DNS are too unstable, giving them up, and went back to a static page with JAMstack ;
 - using lume this time, both gatsby and fresh are too heavy ; 
-- based on : https://lume.land/theme/simple-wiki/
+- based on : [lume, with the theme simple-wiki][link-01]
+- custom domain : `wiki.dallmo.com`
+  - with redirection from `dallmo.com`
+  - which is in turn a simple http redirect app hosted in [deno deploy][link-02] ;
+    - [the deno project][link-03], where dallmo.com records in route53 are associated to ; 
+    - [the github repo][link-04], a simple http server ; 
 
 ## updated as of 2025-05-31
 - gitHub pages for the github account dallmo
@@ -17,3 +22,7 @@
 - preferred the `Fresh` version deployed on deno.dev instead : https://dallmo.deno.dev ;
 
 
+[link-01]: https://lume.land/theme/simple-wiki/
+[link-02]: https://deno.dev
+[link-03]: https://dash.deno.com/projects/dallmo/
+[link-04]: https://github.com/dallmo/deno-http-redirect
