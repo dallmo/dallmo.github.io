@@ -2,7 +2,7 @@
 id: index
 ---
 
-# wiki.dallmo.com
+# dallmo.com
 
 this site is built with [simple wiki][link-02] on [lume][link-01].
 
