@@ -3,8 +3,9 @@ date: 2025-08-29
 tags: ["dev"]
 ---
 
-# title123 in title 123qwe
+# test searching in both title and content 123qwe ニホンゴ
 
 - content123
 - in content 456zxc
 
+as of 2025-08-29, searches can reach both title and content, including asian texts.
