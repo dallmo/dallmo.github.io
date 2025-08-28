@@ -1,3 +1,8 @@
+---
+date: 2025-08-28
+tags: ["browser plugins"]
+---
+
 # configs of blocktube
 
 # overview
