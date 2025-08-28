@@ -3,8 +3,10 @@
 ## updated as of 2025-08-28
 - those handshake DNS are too unstable, giving them up, and went back to a static page with JAMstack ;
 - using lume this time, both gatsby and fresh are too heavy ; 
-- based on : https://lume.land/theme/simple-wiki/
-- custom domain : wiki.dallmo.com
+- based on : [lume, with the theme simple-wiki][link-01]
+- custom domain : `wiki.dallmo.com`
+  - with redirection from `dallmo.com`
+  - which is in turn a simple AWS Amplify app ; 
 
 ## updated as of 2025-05-31
 - gitHub pages for the github account dallmo
@@ -18,3 +20,4 @@
 - preferred the `Fresh` version deployed on deno.dev instead : https://dallmo.deno.dev ;
 
 
+[link-01]: https://lume.land/theme/simple-wiki/
